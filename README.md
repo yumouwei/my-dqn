@@ -32,5 +32,4 @@ total timesteps: 40,000
 
 Mnih, 2013, Playing Atari with Deep Reinforcement Learning: https://arxiv.org/abs/1312.5602  
 Mnih, 2015, Human-level control through deep reinforcement learning: https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf  
-Hasselt, 2016, Deep Reinforcement Learning with Double Q-learning: https://arxiv.org/abs/1509.06461
-
+Hasselt, 2015, Deep Reinforcement Learning with Double Q-learning: https://arxiv.org/abs/1509.06461
