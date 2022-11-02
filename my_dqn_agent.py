@@ -246,6 +246,28 @@ class MyDQNAgent():
     
     def load_network(self, file='model.h5'):
         self.q_network = tf.keras.models.load_model(file)
+        
+    def make_animation(self, filename='gym_animation.gif', RETURN_FRAMES=False):
+        '''
+        Make an animation of the rendered screen
+        '''
+        # run policy
+        frames = []
+        state = self.env.reset()
+        done = False
+        
+        while not done:
+            #frames.append(self.env.render(mode="rgb_array"))
+            im = self.env.render(mode="rgb_array")
+            frames.append(im.copy())
+            action = self.choose_action(state, epsilon=0)
+            state, reward, done, info = self.env.step(action)
+            
+        if RETURN_FRAMES == False:
+            # make animation
+            imageio.mimsave(filename, frames, fps=50)
+        else: # make animation manually in case Mario gets stuck in the level and drags the animation for too long
+            return frames
             
         
         
