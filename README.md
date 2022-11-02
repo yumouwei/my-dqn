@@ -51,7 +51,7 @@ replay start size: 500
 target network update frequency: 100  
 discount factor (gamma): 0.99  
 update frequency: 4  
-optimizer: Adam
+optimizer: Adam  
 learning rate: 1e-3  
 clipnorm: 10  
 initial exploration: 1  
