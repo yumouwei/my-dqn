@@ -13,7 +13,7 @@ Descriptions of the algorithms can be found in references below, and my implemen
 A **DQN** agent has the following components:
 
 <ol>
-  <li>An action-value function Q(state, action),</li>
+  <li>An action-value function Q(state, action) (implemented using a neural network),</li>
   <li>A replay memory buffer (implemented using a <em>deque</em> object) for storing previous transitions = [state, action, reward, new_state, is_terminal].</li>
 </ol>
 
