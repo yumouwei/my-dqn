@@ -60,7 +60,7 @@ exploration fraction: 0.1
 total timesteps: 40,000  
 
 
-## Reference
+## References
 
 Mnih, 2013, Playing Atari with Deep Reinforcement Learning: https://arxiv.org/abs/1312.5602  
 Mnih, 2015, Human-level control through deep reinforcement learning: https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf  
