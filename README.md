@@ -10,7 +10,7 @@ My own implementation of the Deep Q Network and Double Deep Q Network algorithms
 
 Descriptions of the algorithms can be found in references below, and my implementations are in **my_dqn_agent.py**.
 
-Essentially a **DQN** agent has the following components:
+A **DQN** agent has the following components:
 
 <ol>
   <li>An action-value function Q(state, action),</li>
